@@ -72,3 +72,9 @@ a {
   border-radius: 20px;
   background-color: rgb(52,52,52);
 }
+
+.icon {
+  margin: 4px 8px;
+  width: 44px;
+  height: 44px;
+}
