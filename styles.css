@@ -26,6 +26,12 @@ header {
   background-color: rgb(240,240,240);
 }
 
+.share-button svg {
+  margin-left: 12px;
+  margin-top: 10px;
+  color: rgb(0,0,0);
+}
+
 .container {
   width: 91%;
   max-width: 680px;
@@ -54,6 +60,11 @@ a {
   justify-content: space-between;
 }
 
+.tile:hover {
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+
 .image-container {
   height: 96px;
   width: 96px;
@@ -73,8 +84,18 @@ a {
   background-color: rgb(52,52,52);
 }
 
+.tile-share-button svg {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
 .icon {
   margin: 4px 8px;
   width: 44px;
   height: 44px;
+}
+
+.x {
+  font-size: 26px; 
+  line-height: 0px;
 }
